@@ -17,6 +17,8 @@ public class LoginScreen extends Activity {
 		setContentView(R.layout.login_screen);
 		
 		//shihab changed new changes new changes
+		
+		//new changes
 	}
 
 }
