@@ -16,7 +16,7 @@ public class LoginScreen extends Activity {
 		this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.login_screen);
 		
-		//shihab changed
+		//shihab changed new changes
 	}
 
 }
