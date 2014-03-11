@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg_color" >
+
+    <RelativeLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ic_launcher" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL1"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical" >
+        
+        <TextView android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:textColor="#2E3C4B"
+            android:layout_marginLeft="20dp"
+            android:text="@string/login_title" />
+        
+         <TextView android:id="@+id/login_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+            android:textSize="21sp"
+            android:textColor="#2E3C4B"
+            android:layout_below="@+id/login_title"
+            android:text="@string/login_continue" />
+         
+         <EditText
+             android:id="@+id/edtTxt_UserName"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/login_continue"
+             android:layout_below="@+id/login_continue"
+             android:layout_marginRight="7dp"
+             android:layout_marginTop="6dp" />
+
+          <EditText
+              android:id="@+id/edtTxt_Pwd"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignLeft="@+id/edtTxt_UserName"
+              android:layout_below="@+id/edtTxt_UserName"
+              android:layout_marginRight="7dp"
+              android:layout_marginTop="3dp" />
+          <Button android:id="@+id/btn_Login"
+              android:layout_width="fill_parent"
+              android:layout_height="40dp"
+              android:layout_below="@+id/edtTxt_Pwd"
+              android:text="Login"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:textColor="#FFFFFF"
+              android:layout_alignLeft="@+id/edtTxt_Pwd"
+              android:layout_marginRight="7dp"
+              android:layout_marginTop="9dp"
+              android:background="#1E2E3D"/>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

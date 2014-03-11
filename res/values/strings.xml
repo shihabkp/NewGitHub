@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jaguar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="scree_name">Login Screen</string>
+    <color name="login_bg_color">#F0F0F0</color>
+    <string name="login_title">Already a registered user!</string>
+    <string name="login_continue">Login to continue</string>
+    
+    
+
+</resources>
