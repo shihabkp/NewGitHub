@@ -15,6 +15,8 @@ public class LoginScreen extends Activity {
 		//hide the notification
 		this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.login_screen);
+		
+		//shihab changed
 	}
 
 }
